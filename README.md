@@ -76,6 +76,9 @@ readme_content = """# پروژه کراولر و جستجوی هوشمند
 
 5. **اجرای API**:
 برای راه‌اندازی API، فایل `main-api.py` را اجرا کنید:
+```bash
+uvicorn main:app --reload
+```
 
 
 6. **استفاده از API**:
